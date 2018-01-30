@@ -1,0 +1,23 @@
+<script>
+  // Twitch API
+  var twitchKey = "{{ site.data.settings.twitchKey }}";
+  var twitchUsername = "{{ site.data.settings.twitchUsername }}";
+  var twitchAccept = "application/vnd.twitchtv.v5+json"
+  var twitchKraken = 'https://api.twitch.tv/kraken'
+  $.ajaxSetup({
+    headers: {
+      'Accept': twitchAccept,
+      'Client-ID': twitchKey
+    }
+  });
+  $.getJSON(twitchKraken + '/users?login=' + twitchUsername, function (json) {
+    var twitchUserID = json.users[0]._id
+    $.getJSON(twitchKraken + '/channels/' + twitchUserID ,function(json){
+      var twitchGame = json.game
+      var twitchBio = json.about
+      var twitchDisplayName = json.display_name
+      console.log(twitchDisplayName + 'Currnetly playing' + twitchGame )
+    }
+  )});
+
+</script>
