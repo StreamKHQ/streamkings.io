@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the streamer of the week component.
+// -----------------------------------------------------------------------------
+#sotw {
+  padding-top: 75px;
+}
+.sotw {
+  .container {
+    width: 70%;
+  }
+  .header {
+    font-family: $main-font;
+    font-size: 2em;
+    color: $brand-color;
+  }
+}

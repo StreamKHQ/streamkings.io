@@ -12,11 +12,14 @@
   });
   $.getJSON(twitchKraken + '/channels/' + twitchUserID, function (json) {
     var twitchGame = json.game
-    var twitchBio = json.about
+    var twitchBio = json.description
     var twitchUserName = json.name
     var twitchDisplayName = json.display_name
     var twitchProfilePictrue = json.logo
     $('.twitch_stream iframe').attr('src', "https://player.twitch.tv/?channel=" + twitchUserName + "&muted=true");
+    $('#username').text(twitchDisplayName)
+    $('#game').text(twitchGame)
+    $('#bio').text(twitchBio)
     console.log(twitchDisplayName + ' Currnetly playing' + twitchGame)
   });
 
