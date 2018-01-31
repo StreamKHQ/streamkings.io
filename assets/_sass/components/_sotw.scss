@@ -2,15 +2,39 @@
 // This file contains all styles related to the streamer of the week component.
 // -----------------------------------------------------------------------------
 #sotw {
-  padding-top: 75px;
+    padding-top: 75px;
 }
+
 .sotw {
-  .container {
-    width: 70%;
-  }
-  .header {
-    font-family: $main-font;
-    font-size: 2em;
-    color: $brand-color;
-  }
+  background: linear-gradient(to bottom, rgba(125,185,232,0) 75%,rgba(255,235,132,1) 100%);
+    .container {
+        width: 70%;
+    }
+
+    .header {
+        font-family: $main-font;
+        font-size: 2em;
+        color: $brand-color;
+    }
+
+    .twitch_info {
+        .username {
+          font-family: $main-font;
+          font-size: 1em;
+          display: inline-block;
+        }
+
+        .currently {
+          color: #656565;
+          font-family: $main-font;
+          font-size: 1em;
+          display: inline-block;
+        }
+        .bio {
+          font-family: $main-font;
+          font-size: 1em;
+          display: inline-block;
+        }
+    }
+
 }

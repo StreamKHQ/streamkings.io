@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the about component.
+// -----------------------------------------------------------------------------
+.about {
+  background: linear-gradient(to bottom, rgba(255,235,132,1) 0%,rgba(125,185,232,0) 50%);
+  .header {
+    font-family: $main-font;
+    font-size: 2em;
+    color: $brand-color;
+  }
+  .text {
+
+  }
+}
