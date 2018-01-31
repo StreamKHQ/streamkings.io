@@ -1,0 +1,23 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script>
+  // Twitch API
+  var twitchKey = "o3rt6l6u2pgn1muzpgtuihxwset6y8";
+  // Put the Streamer of the week username here and load in chrome and or etc.
+  var twitchUsername = "mrdemonwolf";
+  var twitchAccept = "application/vnd.twitchtv.v5+json"
+  var twitchKraken = 'https://api.twitch.tv/kraken'
+  $.ajaxSetup({
+    headers: {
+      'Accept': twitchAccept,
+      'Client-ID': twitchKey
+    }
+  });
+  $.getJSON(twitchKraken + '/users?login=' + twitchUsername, function (json) {
+    var twitchUserID = json.users[0]._id;
+    $('.streamer-id').text(twitchUserID);
+  });
+
+</script>
+<div class="streamer-id">
+</div>

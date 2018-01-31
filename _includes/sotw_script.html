@@ -1,7 +1,7 @@
 <script>
   // Twitch API
   var twitchKey = "{{ site.data.settings.twitchKey }}";
-  var twitchUsername = "{{ site.data.settings.twitchUsername }}";
+  var twitchUserID = "{{ site.data.settings.twitchUserID }}";
   var twitchAccept = "application/vnd.twitchtv.v5+json"
   var twitchKraken = 'https://api.twitch.tv/kraken'
   $.ajaxSetup({
@@ -10,14 +10,14 @@
       'Client-ID': twitchKey
     }
   });
-  $.getJSON(twitchKraken + '/users?login=' + twitchUsername, function (json) {
-    var twitchUserID = json.users[0]._id
-    $.getJSON(twitchKraken + '/channels/' + twitchUserID ,function(json){
-      var twitchGame = json.game
-      var twitchBio = json.about
-      var twitchDisplayName = json.display_name
-      console.log(twitchDisplayName + 'Currnetly playing' + twitchGame )
-    }
-  )});
+  $.getJSON(twitchKraken + '/channels/' + twitchUserID, function (json) {
+    var twitchGame = json.game
+    var twitchBio = json.about
+    var twitchUserName = json.name
+    var twitchDisplayName = json.display_name
+    var twitchProfilePictrue = json.logo
+    $('.twitch_stream iframe').attr('src', "https://player.twitch.tv/?channel=" + twitchUserName + "&muted=true");
+    console.log(twitchDisplayName + ' Currnetly playing' + twitchGame)
+  });
 
 </script>
