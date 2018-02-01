@@ -4,6 +4,8 @@
   var twitchUserID = "{{ site.data.settings.twitchUserID }}";
   var twitchAccept = "application/vnd.twitchtv.v5+json"
   var twitchKraken = 'https://api.twitch.tv/kraken'
+  var twitchDirectoryGame = 'https://www.twitch.tv/directory/game'
+  var twitchURL = 'https://www.twitch.tv'
   $.ajaxSetup({
     headers: {
       'Accept': twitchAccept,
@@ -17,6 +19,8 @@
     var twitchDisplayName = json.display_name
     var twitchProfilePictrue = json.logo
     $('.twitch_stream iframe').attr('src', "https://player.twitch.tv/?channel=" + twitchUserName + "&muted=true");
+    $('#gameLink').attr('href', twitchDirectoryGame + '/' + twitchGame)
+    $('#usernameLink').attr('href', twitchURL + '/' + twitchUserName)
     $('#username').text(twitchDisplayName)
     $('#game').text(twitchGame)
     $('#bio').text(twitchBio)

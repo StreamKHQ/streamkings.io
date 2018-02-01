@@ -2,7 +2,7 @@
 // This file contains all styles related to the streamer of the week component.
 // -----------------------------------------------------------------------------
 #sotw {
-    padding-top: 75px;
+    padding-top: 70px;
 }
 
 .sotw {
@@ -13,9 +13,10 @@
     }
 
     .header {
-        font-family: $main-font;
+        font-family: $second-font;
         font-size: 2.5em;
         color: $brand-color;
+        padding-bottom: 12px
     }
 
     .username {
@@ -39,8 +40,7 @@
 
     .bio {
         font-family: $main-font;
-        font-size: 1.5em;
+        font-size: 1.25em;
         display: inline-block;
-        margin: 0 auto;
     }
 }
