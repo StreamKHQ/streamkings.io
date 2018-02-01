@@ -8,7 +8,6 @@
 .sotw {
     // background: linear-gradient(to bottom, rgba(125,185,232,0) 75%,rgba(255,235,132,1) 100%);
     .container {
-        width: 60%;
         padding-right: 0px;
         padding-left: 0px;
     }
@@ -19,30 +18,29 @@
         color: $brand-color;
     }
 
-    .twitch_info {
-        .username {
-            font-family: $main-font;
-            font-size: 1.75em;
-            display: inline-block;
-        }
+    .username {
+        font-family: $main-font;
+        font-size: 1.5em;
+        display: inline-block;
+    }
 
-        .currently {
-            color: #656565;
-            font-family: $main-font;
-            font-size: 1.75em;
-            display: inline-block;
-        }
+    .currently {
+        color: #656565;
+        font-family: $main-font;
+        font-size: 1.5em;
+        display: inline-block;
+    }
 
-        .game {
-            font-family: $main-font;
-            font-size: 1.75em;
-            display: inline-block;
-        }
+    .game {
+        font-family: $main-font;
+        font-size: 1.5em;
+        display: inline-block;
+    }
 
-        .bio {
-            font-family: $main-font;
-            font-size: 1.75em;
-            display: inline-block;
-        }
+    .bio {
+        font-family: $main-font;
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 0 auto;
     }
 }
