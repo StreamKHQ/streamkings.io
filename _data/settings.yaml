@@ -7,6 +7,9 @@ menu:
 - {title: Home, url: '#'}
 - {title: About, url: '#'}
 - {title: Store, url: '#'}
+menu-cta:
+  title:
+  url: https://discord.gg/9Uq4gAc
 
 #-------------------------------
 # SEO Section
