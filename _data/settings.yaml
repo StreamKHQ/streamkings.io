@@ -5,11 +5,12 @@
 
 menu:
 - {title: Home, url: '#'}
-- {title: About, url: '#'}
-- {title: Store, url: '#'}
-menu-cta:
-  title: Join
-  url: 'https://discord.gg/9Uq4gAc'
+- {title: About, url: '#about'}
+- {title: Ofter, url: '#ofter'}
+- {title: Join, url: 'https://discord.gg/9Uq4gAc'}
+# menu-cta:
+#   title: Join
+#   url: 'https://discord.gg/9Uq4gAc'
 
 #-------------------------------
 # SEO Section
