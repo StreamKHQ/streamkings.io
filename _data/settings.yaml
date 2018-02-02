@@ -8,8 +8,8 @@ menu:
 - {title: About, url: '#'}
 - {title: Store, url: '#'}
 menu-cta:
-  title:
-  url: https://discord.gg/9Uq4gAc
+  title: Join
+  url: 'https://discord.gg/9Uq4gAc'
 
 #-------------------------------
 # SEO Section
@@ -27,8 +27,7 @@ seo:
 # Twitch API
 twitchKey: o3rt6l6u2pgn1muzpgtuihxwset6y8
 twitchUserID: 45335452
-twitchBio: true
-
+twitchBio: false
 # Shows if twitchBio is set to false
 customBio: I have always been fascinated with computers and design when I was 13. I was part of a community for a few years but moved on from them and decided to make my own. Had to learn how to design and layout a community.Thought this long journey I learned, failed many times, and gained a lot of knowledge
 sotw-header:  Streamer Of The Week

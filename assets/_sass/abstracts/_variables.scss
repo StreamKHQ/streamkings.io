@@ -17,19 +17,16 @@ $social-icon: #ffffff;
 // Footer Text
 $footer-color: #ffffff;
 $footer-color_link: #f2f2f2;
-$footer-background: #015274;
-// Footer Legal
-$footer-color-legal: #000000;
-$footer-color_link-legal: #3D3D3D;
+$footer-background: #0c1e42;
 // Brand Color
 $brand-color: #FBD511;
-$brand-color-alt: rgb(109, 91, 0);
-$brand-color-alt-2: #FBD511;
+$brand-color-alt: #0c1e42;
+
 // Menu Links
-$nav-bgDefault      : #ffffff;
-$nav-bgHighlight    : #ffffff;
+$nav-bgDefault      : #0c1e42;
+$nav-bgHighlight    : #0c1e42;
 $nav-colDefault     : #FBD511;
-$nav-colHighlight   : #000000;
+$nav-colHighlight   : rgb(255, 236, 143);
 $nav-dropdown       : true;
 // Buttons
 $button_background_effect_font: #ffffff;
@@ -37,3 +34,4 @@ $button_background_effect: #00709f;
 
 // Spacing
 $spacing-padding: 50px;
+$content-background: #0c1e42;

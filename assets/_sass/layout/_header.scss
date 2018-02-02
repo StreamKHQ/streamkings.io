@@ -1,7 +1,6 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
-/* _nav.scss */
 @media (max-width: 768px) {
     .logo-desktop {
         display: none;
@@ -180,15 +179,4 @@
 .dropdown-menu > li > a {
     font-family: $main-font;
     font-size: 1.5em;
-}
-
-.cta {
-    padding: 2px 6px 2px 6px;
-    background-color: #EEEEEE;
-    color: #333333;
-    padding: 2px 6px 2px 6px;
-    border-top: 1px solid #CCCCCC;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC;
 }

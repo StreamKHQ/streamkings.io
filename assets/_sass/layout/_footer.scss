@@ -48,17 +48,3 @@
       display: none;
     }
 }
-.footer-legal {
-  font-size: 1.15em;
-  color: $footer-color-legal;
-  padding: 10px 0;
-  margin-bottom: 0;
-	a {
-		color: $footer-color_link-legal;
-		text-decoration: none;
-	}
-	a:hover {
-		color: lighten($footer-color_link-legal, 15%);
-		text-decoration: none;
-  }
-}
