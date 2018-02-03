@@ -27,18 +27,32 @@ seo:
 
 # Twitch API
 twitchKey: o3rt6l6u2pgn1muzpgtuihxwset6y8
-twitchUserID: 45335452
+twitchUserID: 132310560
 twitchBio: false
 # Shows if twitchBio is set to false
-customBio: I have always been fascinated with computers and design when I was 13. I was part of a community for a few years but moved on from them and decided to make my own. Had to learn how to design and layout a community.Thought this long journey I learned, failed many times, and gained a lot of knowledge
+customBio: I am a outgoing, and fun person who enjoys playing league of legends on a daily basis. I also like to hula hoop for fun, and I am pretty good at doing so. If you want me to show you, I can hula hoop for you. Just ask! I love giving animals affection. They are sweet, cute, and much nicer than humans. ^-^
 sotw-header:  Streamer Of The Week
 
 #-------------------------------
-# About
+# About Section
 
 about:
   header: WELCOME TO THE FUTURE
   text: We are revolutionizing the way streamers connect to their audience and network, Stream Kings is a social platform for streamers of any kind. We look to enhance peoples networking abilities, through connection online, influential articles and inspirational stories. We launched in November 2017 with the goal to be the largest UK streaming social platform. In the first 4 days, we had 250 people interested in our project! We plan by June 2018 to have grown by 50% and have 1000+ people using our social platform. Start your journey with us today, we can’t wait for the future!
+
+#-------------------------------
+# Ofter Section
+
+ofter:
+  header:
+  ofters:
+    - {icon: , title: , text: ,}
+    - {icon: , title: , text: ,}
+    - {icon: , title: , text: ,}
+    - {icon: , title: , text: ,}
+    - {icon: , title: , text: ,}
+    - {icon: , title: , text: ,}
+    - {icon: , title: , text: ,}
 
 
 #-------------------------------
