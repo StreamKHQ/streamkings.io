@@ -85,14 +85,8 @@
       "name": "{{ site.title}}",
       "mainEntityOfPage": "{{ site.data.settings.seo.url }}/",
       "url": "{{ site.data.settings.seo.url }}/",
-      "sameAs": [{ %
-          for item in site.data.settings.social %
-        }
-        "{{ item.url }}" { %
-          if forloop.last == false %
-        }, { % endif %
-        } { % endfor %
-        }
+      "sameAs": [{% for item in site.data.settings.social %}
+        "{{ item.url }}" {% if forloop.last == false %},{% endif %} {% endfor %}
       ],
       "email": "{{ site.email }}",
       "logo": "{{ site.subpath }}/assets/logos/logo.png"
@@ -115,10 +109,7 @@
           <span class="glyphicon glyphicon-remove"></span>
         </div>
       </button>
-      <a class="navbar-brand navbar-logo logo-desktop" href="/">
-        <img alt="{{ site.title }}" src="{{ site.data.settings.url }}/assets/images/logo_text.png">
-      </a>
-      <a class="navbar-brand navbar-logo logo-mobile" href="/">
+      <a class="navbar-brand navbar-logo" href="/">
         <img alt="{{ site.title }}" src="{{ site.data.settings.url }}/assets/images/logo.png">
       </a>
     </div>

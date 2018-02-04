@@ -2,14 +2,6 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 @media (max-width: 768px) {
-    .logo-desktop {
-        display: none;
-    }
-
-    .logo-mobile {
-        display: block !important;
-    }
-
     .navbar-brand {
         padding: 2px 10px !important;
     }
@@ -21,10 +13,6 @@
     padding-top: 12.5px;
 }
 
-.logo-mobile {
-    display: none;
-}
-
 .navbar-brand {
     padding: 2px 2px;
 }
@@ -32,11 +20,13 @@
 .navbar-default {
     background-color: $nav-bgDefault;
     border-color: $nav-bgHighlight;
+    box-shadow: 40px 5px 25px 0px rgba(0, 0, 0, 0.41);
 
     .navbar-brand {
         color: $nav-colDefault;
 
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
             color: $nav-colHighlight;
         }
     }
@@ -51,7 +41,8 @@
                 color: $nav-colDefault;
                 line-height: 35px;
 
-                &:hover, &:focus {
+                &:hover,
+                &:focus {
                     color: $nav-colHighlight;
                 }
             }
@@ -64,7 +55,8 @@
                         > a {
                             color: $nav-colDefault;
 
-                            &:hover, &:focus {
+                            &:hover,
+                            &:focus {
                                 color: $nav-colHighlight;
                                 background-color: $nav-bgHighlight;
                             }
@@ -80,7 +72,9 @@
 
         @if $nav-dropdown {
             .open .nav-dropdown-menu > .active {
-                > a, > a:hover, > a:focus {
+                > a,
+                > a:hover,
+                > a:focus {
                     color: $nav-colHighlight;
                     background-color: $nav-bgHighlight;
                 }
@@ -88,14 +82,18 @@
         }
 
         > .active {
-            > a, > a:hover, > a:focus {
+            > a,
+            > a:hover,
+            > a:focus {
                 color: $nav-colHighlight;
                 background-color: $nav-bgHighlight;
             }
         }
 
         > .open {
-            > a, > a:hover, > a:focus {
+            > a,
+            > a:hover,
+            > a:focus {
                 color: $nav-colHighlight;
                 background-color: $nav-bgHighlight;
             }
@@ -105,7 +103,8 @@
     .navbar-toggle {
         border-color: $nav-bgHighlight;
 
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
             background-color: $nav-bgHighlight;
         }
 
@@ -133,13 +132,16 @@
         > li > a {
             color: $nav-colDefault;
 
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 color: $nav-colHighlight;
             }
         }
 
         > .active {
-            > a, > a:hover, > a:focus {
+            > a,
+            > a:hover,
+            > a:focus {
                 color: $nav-colHighlight;
                 background-color: $nav-bgHighlight;
             }
@@ -156,7 +158,121 @@
     }
 }
 
-.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+// Scroll
+.navbar-scroll {
+    background-color: $nav-bgScroll;
+    border-color: $brand-color;
+    transition: all 700ms;
+
+    .navbar-brand {
+        color: $nav-colScroll;
+
+        &:hover,
+        &:focus {
+            color: $nav-colScroll-Hightlight;
+        }
+    }
+
+    .navbar-text {
+        color: $nav-colScroll;
+    }
+
+    .navbar-nav {
+        > li {
+            > a {
+                color: $nav-colScroll;
+                line-height: 35px;
+
+                &:hover,
+                &:focus {
+                    color: $nav-colScroll-Hightlight;
+                }
+            }
+
+            @if $nav-dropdown {
+                > .nav-dropdown-menu {
+                    background-color: $nav-bgDefault;
+
+                    > li {
+                        > a {
+                            color: $nav-colScroll;
+
+                            &:hover,
+                            &:focus {
+                                color: $nav-colScroll-Hightlight;
+                                background-color: $nav-bgHighlight;
+                            }
+                        }
+
+                        &.divider {
+                            background-color: $nav-bgHighlight;
+                        }
+                    }
+                }
+            }
+        }
+
+        @if $nav-dropdown {
+            .open .nav-dropdown-menu > .active {
+                > a,
+                > a:hover,
+                > a:focus {
+                    color: $nav-colScroll-Hightlight;
+                    background-color: $nav-bgHighlight;
+                }
+            }
+        }
+
+        > .active {
+            > a,
+            > a:hover,
+            > a:focus {
+                color: $nav-colScroll-Hightlight;
+                background-color: $nav-bgHighlight;
+            }
+        }
+
+        > .open {
+            > a,
+            > a:hover,
+            > a:focus {
+                color: $nav-colScroll-Hightlight;
+                background-color: $nav-bgHighlight;
+            }
+        }
+    }
+
+    .navbar-toggle {
+        border-color: $nav-bgHighlight;
+
+        &:hover,
+        &:focus {
+            background-color: $nav-bgHighlight;
+        }
+
+        .icon-bar {
+            background-color: $nav-colScroll;
+        }
+    }
+
+    .navbar-collapse,
+    .navbar-form {
+        border-color: $nav-colScroll;
+    }
+
+    .navbar-link {
+        color: $nav-colScroll;
+
+        &:hover {
+            color: $nav-colScroll-Hightlight;
+        }
+    }
+}
+
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
     margin-bottom: 0.2em;
 }
 
@@ -167,16 +283,15 @@
 }
 
 .navbar {
-    margin-bottom: 0px;
-    // border-bottom: 1px solid $brand-color-alt;
+    margin-bottom: 0px; // border-bottom: 1px solid $brand-color-alt;
 }
 
 .navbar-default .navbar-nav > li > a {
     font-family: $main-font;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .dropdown-menu > li > a {
     font-family: $main-font;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
