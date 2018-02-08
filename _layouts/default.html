@@ -60,7 +60,7 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script type="text/javascript" src="{{ site.subpath }}/assets/lib/jquery/js/jquery.min.js"></script>
   <!-- Google Analytics -->
-  <script>
+  <!-- <script>
     (function (i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
       i[r] = i[r] || function () {
@@ -76,7 +76,7 @@
     ga('create', '{{ site.data.settings.google-analytics }}', 'auto');
     ga('send', 'pageview');
 
-  </script>
+  </script> -->
   <!-- End Google Analytics -->
   <script type="application/ld+json">
     {
@@ -85,8 +85,14 @@
       "name": "{{ site.title}}",
       "mainEntityOfPage": "{{ site.data.settings.seo.url }}/",
       "url": "{{ site.data.settings.seo.url }}/",
-      "sameAs": [{% for item in site.data.settings.social %}
-        "{{ item.url }}" {% if forloop.last == false %},{% endif %} {% endfor %}
+      "sameAs": [{ %
+          for item in site.data.settings.social %
+        }
+        "{{ item.url }}" { %
+          if forloop.last == false %
+        }, { % endif %
+        } { % endfor %
+        }
       ],
       "email": "{{ site.email }}",
       "logo": "{{ site.subpath }}/assets/logos/logo.png"
@@ -109,8 +115,13 @@
           <span class="glyphicon glyphicon-remove"></span>
         </div>
       </button>
-      <a class="navbar-brand navbar-logo" href="/">
-        <img alt="{{ site.title }}" src="{{ site.data.settings.url }}/assets/images/logo.png">
+      <!-- Desktop Logo -->
+      <a class="navbar-brand navbar-logo logo-desktop" href="/">
+        <img alt="{{ site.title }}" src="{{ site.subpath }}/assets/images/logo_text.png">
+      </a>
+      <!-- Mobile Logo -->
+      <a class="navbar-brand navbar-logo logo-mobile" href="/">
+        <img alt="{{ site.title }}" src="{{ site.subpath }}/assets/images/logo.png">
       </a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -167,7 +178,7 @@
 
             </script>
             <a href="{{ site.subpath }}/">{{ site.title }}</a>
-            <span> -Designed by MrDemonWolf </span>|
+            <span> - Designed by MrDemonWolf </span>|
             <a href="{{ site.subpath }}/privacy-statement">Privacy Statement</a>
           </div>
         </div>

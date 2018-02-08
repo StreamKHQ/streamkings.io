@@ -2,9 +2,21 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 @media (max-width: 768px) {
+    .logo-desktop {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: block !important;
+    }
+
     .navbar-brand {
         padding: 2px 10px !important;
     }
+}
+
+.logo-mobile {
+    display: none;
 }
 
 .navbar-logo > img {

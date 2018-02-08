@@ -43,10 +43,10 @@ $(document).ready(function () {
       scroll_start = $(this).scrollTop();
       if (scroll_start > offset.top) {
         $(".navbar-default").addClass('navbar-scroll');
-        $('.navbar-desktop img').attr('src', '../assets/images/logo_text_dark.png');
+        // $('.navbar-desktop img').attr('src', '../assets/images/logo_text_dark.png');
       } else {
         $(".navbar-default").removeClass('navbar-scroll');
-        $('.navbar-desktop img').attr('src', '../assets/images/logo_text_light.png');
+        // $('.navbar-desktop img').attr('src', '../assets/images/logo_text_light.png');
       }
     });
   }
