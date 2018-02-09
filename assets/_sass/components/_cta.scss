@@ -49,12 +49,12 @@
         font-weight: 700;
 
         &.btn-cta {
-            color: $button_background_effect_font;
-            background-color: $button_background_effect;
+            color: $button_font;
+            background-color: $button_background;
 
             &.btn-cta.active.focus, .btn-cta.active:focus, .btn-cta.active:hover, .btn-cta:active.focus, .btn-cta:active:focus, .btn-cta:active:hover, .btn-cta:hover {
                 background: darken($button_background_effect, 15%);
-                color: button_background_effect_font;
+                color: $button_font_effect;
                 transition: all 500ms;
             }
         }
@@ -62,8 +62,8 @@
 }
 
 #cta {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 38px;
+    padding-bottom: 38px;
 
     .jumbotron {
         background-color: transparent;

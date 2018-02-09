@@ -57,14 +57,14 @@ cta-button:
 # Staff Section
 
 staff:
-  - {name: Antonio, rank: Owner}
-  - {name: Bamba, rank: Manager}
-  - {name: Nathan, rank: Senior Staff}
-  - {name: Brookelyn, rank: Staff}
-  - {name: Dave, rank: Staff}
-  - {name: Jay, rank: Staff}
-  - {name: Toby, rank: Staff}
-
+  - {name: Antonio, rank: Owner, twitter: https://www.twitter.com/}
+  - {name: Bamba, rank: Manager, twitter: https://www.twitter.com/}
+  - {name: Nathan, rank: Senior Staff, twitter: https://www.twitter.com/}
+  - {name: Brookelyn, rank: Staff, twitter: https://www.twitter.com/}
+  - {name: Dave, rank: Staff, twitter: https://www.twitter.com/}
+  - {name: Jay, rank: Staff, twitter: https://www.twitter.com/}
+  - {name: Toby, rank: Staff, twitter: https://www.twitter.com/}
+staff-header: Our Staff
 
 #-------------------------------
 # Ofter Section
@@ -81,7 +81,8 @@ ofter:
 
 social:
 - {icon: 'fa-twitter', color: 'twitter-color', url: 'https://www.twitter.com/streamkingshq'}
-- {icon: 'fa-twitter', color: 'twitter-color', url: 'https://www.twitter.com/streamkingshq'}
+- {icon: 'fa-instagram', color: 'instagram-color', url: 'https://www.instagram.com/streamkingshq/'}
+- {icon: 'fa-facebook', color: 'facebook-color', url: 'https://www.facebook.com/StreamKingsUK/'}
 
 #-------------------------------
 # Modified Date

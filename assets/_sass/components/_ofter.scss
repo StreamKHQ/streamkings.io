@@ -4,11 +4,14 @@
 .ofter {
     .ofters {
         .header {
+            color: $brand-color-alt;
             font-family: $main-font;
+            font-size: 2em;
         }
 
         .text {
             font-family: $main-font;
+            font-size: 1em;
         }
     }
 
@@ -27,4 +30,9 @@
             }
         }
     }
+}
+
+#ofter {
+    padding-top: $spacing-padding;
+    padding-bottom: $spacing-padding;
 }

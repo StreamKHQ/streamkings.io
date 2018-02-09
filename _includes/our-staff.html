@@ -1,5 +1,10 @@
-<div class="our-staff">
+<div class="our-staff" id="our-staff">
   <div class="container">
+    <div class="col-md-12">
+      <div class="header text-center">
+        {{ site.data.settings.staff-header }}
+      </div>
+    </div>
     {% for item in site.data.settings.staff %} {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %} {% if modulo
     == '1' %}
     <div class="row">
@@ -9,7 +14,7 @@
           <img class="img-responsive img-circle" src="{{ site.subpath}}/assets/images/staff/{{ item.name | downcase }}.png" alt="{{ item.name }} Profile Picture">
         </div>
         <div class="name text-center">
-          {{ item.name }}
+          {{ item.name }} <a href=""><i class="fab fa-twitter"></i></a>
         </div>
         <div class="rank text-center">
           {{ item.rank }}

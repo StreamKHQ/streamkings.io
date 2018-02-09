@@ -2,27 +2,43 @@
 // This file contains all styles related to the staff component.
 // -----------------------------------------------------------------------------
 .our-staff {
-  .header {
-    font-family: $main-font;
-  }
-  .profile-picture {
-    img {
-      max-height: 50%;
-      max-width: 50%;
-      margin: 0 auto;
+    background: $content-background;
+
+    .header {
+        font-family: $second-font;
+        color: $brand-color;
+        font-size: 2.5em;
     }
-  }
-  .name {
-    font-family: $main-font;
-    color: $brand-color-alt;
-    font-weight: 700;
-    font-size: 1.5em;
-  }
-  .rank {
-    font-family: $main-font;
-    font-size: 1em;
-  }
-  .staff {
-    padding: 10px;
-  }
+
+    .profile-picture {
+        img {
+            max-height: 50%;
+            max-width: 50%;
+            margin: 0 auto;
+        }
+    }
+
+    .name {
+        font-family: $main-font;
+        color: #8EB3FF;
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+
+    .rank {
+        font-family: $main-font;
+        font-size: 1em;
+        color: #ffffff;
+    }
+
+    .staff {
+        padding: 10px;
+    }
+    .social {
+      font-size: 1.25em;
+    }
+}
+
+#our-staff {
+    padding-top: $spacing-padding;
 }
