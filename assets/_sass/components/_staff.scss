@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the staff component.
+// -----------------------------------------------------------------------------
+.our-staff {
+  .profile-picture {
+    img {
+      max-height: 50%;
+      max-width: 50%;
+      margin: 0 auto;
+    }
+  }
+  .name {
+    font-family: $main-font;
+    color: $brand-color-alt;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  .rank {
+    font-family: $main-font;
+    font-size: 1em;
+  }
+  .staff {
+    padding: 25px;
+  }
+}
