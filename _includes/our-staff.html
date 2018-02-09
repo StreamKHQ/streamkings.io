@@ -1,0 +1,22 @@
+<div class="our-staff">
+  <div class="container">
+    {% for item in site.data.settings.staff %} {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %} {% if modulo
+    == '1' %}
+    <div class="row">
+      {% endif %}
+      <div class="col-md-4">
+        <div class="profile-picture">
+          <img class="img-responsive img-circle"  src="{{ site.subpath}}/assets/images/staff/{{ item.name }}.jpg" alt="{{ item.name }} Profile Picture">
+        </div>
+        <div class="name">
+          {{ item.name }}
+        </div>
+        <div class="rank">
+          {{ item.rank }}
+        </div>
+      </div>
+      {% if modulo == '0' or forloop.last %}
+    </div>
+    {% endif %} {% endfor %}
+  </div>
+</div>
