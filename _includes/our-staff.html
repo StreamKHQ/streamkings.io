@@ -1,11 +1,12 @@
 <div class="our-staff">
   <div class="container">
-    {% for item in site.data.settings.staff %} {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %} {% if modulo == '1' %}
+    {% for item in site.data.settings.staff %} {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %} {% if modulo
+    == '1' %}
     <div class="row">
       {% endif %}
       <div class="col-md-4 staff">
         <div class="profile-picture">
-          <img class="img-responsive img-circle"  src="{{ site.subpath}}/assets/images/staff/{{ item.name | downcase }}.png" alt="{{ item.name }} Profile Picture">
+          <img class="img-responsive img-circle" src="{{ site.subpath}}/assets/images/staff/{{ item.name | downcase }}.png" alt="{{ item.name }} Profile Picture">
         </div>
         <div class="name text-center">
           {{ item.name }}

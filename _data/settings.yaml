@@ -4,9 +4,11 @@
 # Menu Section
 
 menu:
-- {title: Home, url: '#'}
-- {title: About, url: '#about'}
-- {title: Ofter, url: '#ofter'}
+- {title: Home, url: '/'}
+- {title: About, url: '/#about'}
+- {title: Ofter, url: '/#ofter'}
+- {title: Store, url: 'https://clashattire.net/collections/StreamKings'}
+- {title: Stickers, url: 'https://northstik.co/shop?olsPage=t%2Fstream-kings'}
 - {title: Join, url: 'https://discord.gg/9Uq4gAc'}
 # menu-cta:
 #   title: Join
@@ -30,7 +32,7 @@ twitchKey: o3rt6l6u2pgn1muzpgtuihxwset6y8
 twitchUserID: 132310560
 twitchBio: false
 # Shows if twitchBio is set to false
-customBio: I am a outgoing, and fun person who enjoys playing league of legends on a daily basis. I also like to hula hoop for fun, and I am pretty good at doing so. If you want me to show you, I can hula hoop for you. Just ask! I love giving animals affection. They are sweet, cute, and much nicer than humans. ^-^
+customBio: 'I am a outgoing, and fun person who enjoys playing league of legends on a daily basis. I also like to hula hoop for fun, and I am pretty good at doing so. If you want me to show you, I can hula hoop for you. Just ask! I love giving animals affection. They are sweet, cute, and much nicer than humans. ^-^'
 sotw-header:  Streamer Of The Week
 
 #-------------------------------
@@ -38,7 +40,7 @@ sotw-header:  Streamer Of The Week
 
 about:
   header: How will we help you?
-  text: StreamKings is an organisation that is full of content creators and hard-working staff members, everyone in our community is supportive and will help you grow as much as they can! We have 110% commitment to our members and try our hardest to ensure their success.
+  text: 'StreamKings is an organisation that is full of content creators and hard-working staff members, everyone in our community is supportive and will help you grow as much as they can! We have 110% commitment to our members and try our hardest to ensure their success.'
 
 #------------------------------
 # CTA Section
@@ -68,14 +70,11 @@ staff:
 # Ofter Section
 
 ofter-image:
-    image:
-    title:
+    image: jersey.png
+    title: Stream Kings Jersey
 ofter:
-  - {
-    header: ,
-
-  }
-
+  - {header: 'Why choose us?', text: 'Stream Kings aims to provide you with all the tools necessary to become a successful, streamer, youtuber, creator & more! We have a fully dedicated staff team that operates 24 hours a day, 7 days a week that supports the growth of your talent! We firmly believe that everyone deserves an opportunity to be successful, and we want to provide that opportunity.'}
+  - {header: 'Getting the most exposure from us!', text: 'When you want us to share your content make sure to either share it on discord with a member of staff or alternatively @ us! We will do our best to ensure your content gets the maximum exposure it can receive!'}
 
 #-------------------------------
 # Social Icons and URls

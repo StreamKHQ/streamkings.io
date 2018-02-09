@@ -1,8 +1,21 @@
-<div class="container">
-  <div class="col-md-8">
-    <img class="img-responsive" src="{{ site.subpath }}{{ site.data.settings.ofter.image }}" alt="{{ site.data.settings.ofter.image.name }}">
-  </div>
-  <div class="col-md-4">
-
+<div class="ofter" id="ofter">
+  <div class="container">
+    <div class="col-xs-12 col-md-4">
+      <div class="side-image">
+        <img class="img-responsive" src="{{ site.subpath }}/assets/images/{{ site.data.settings.ofter-image.image }}" alt="{{ site.data.settings.ofter-image.title }}">
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-8">
+      {% for item in site.data.settings.ofter %}
+      <div class="ofters">
+        <div class="header">
+          {{ item.header }}
+        </div>
+        <div class="text">
+          {{ item.text }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>

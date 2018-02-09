@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the ofter component.
+// -----------------------------------------------------------------------------
+.ofter {
+    .ofters {
+        .header {
+            font-family: $main-font;
+        }
+
+        .text {
+            font-family: $main-font;
+        }
+    }
+
+    .side-image {
+        img {
+            float: right;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .ofter {
+        .side-image {
+            img {
+                float: left;
+            }
+        }
+    }
+}
