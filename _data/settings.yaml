@@ -37,10 +37,22 @@ sotw-header:  Streamer Of The Week
 # About Section
 
 about:
-  header: WELCOME TO THE FUTURE
-  text: We are revolutionizing the way streamers connect to their audience and network, Stream Kings is a social platform for streamers of any kind. We look to enhance peoples networking abilities, through connection online, influential articles and inspirational stories. We launched in November 2017 with the goal to be the largest UK streaming social platform. In the first 4 days, we had 250 people interested in our project! We plan by June 2018 to have grown by 50% and have 1000+ people using our social platform. Start your journey with us today, we can’t wait for the future!
+  header: How will we help you?
+  text: StreamKings is an organisation that is full of content creators and hard-working staff members, everyone in our community is supportive and will help you grow as much as they can! We have 110% commitment to our members and try our hardest to ensure their success.
+
+#------------------------------
+# CTA Section
+
+cta:
+  header: We cant wait to meet you!
+  sub-header: As soon as you join you will be politely greeted by staff members and other creators!
+
+cta-button:
+  title: JOIN NOW
+  url: https://discord.gg/ykMfJBW
+
 #-------------------------------
-# Ofter Section
+# Staff Section
 
 staff:
   - {name: Antonio, rank: Owner}
@@ -55,16 +67,14 @@ staff:
 #-------------------------------
 # Ofter Section
 
+ofter-image:
+    image:
+    title:
 ofter:
-  header:
-  ofters:
-    - {icon: , title: , text: ,}
-    - {icon: , title: , text: ,}
-    - {icon: , title: , text: ,}
-    - {icon: , title: , text: ,}
-    - {icon: , title: , text: ,}
-    - {icon: , title: , text: ,}
-    - {icon: , title: , text: ,}
+  - {
+    header: ,
+
+  }
 
 
 #-------------------------------

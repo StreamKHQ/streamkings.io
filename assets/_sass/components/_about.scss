@@ -3,7 +3,8 @@
 // -----------------------------------------------------------------------------
 .about {
     // background: linear-gradient(to bottom, rgba(255,235,132,1) 0%,rgba(125,185,232,0) 50%);
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 235, 132, 0.5) 50%, rgba(255, 255, 255, 0.5) 100%);
+    // background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba($brand-color-alt, .5) 50%, rgba(255, 255, 255, 0.5) 100%);
+    background-color: $brand-color-alt;
 
     .header {
         font-family: $second-font;
@@ -13,12 +14,14 @@
     }
 
     .text {
+        color: #fff;
         font-family: $main-font;
         font-size: 1.5em;
         margin: 0 auto;
     }
 }
+
 #about {
-  padding-top: $spacing-padding;
-  padding-bottom: $spacing-padding;
+    padding-top: $spacing-padding;
+    padding-bottom: $spacing-padding;
 }

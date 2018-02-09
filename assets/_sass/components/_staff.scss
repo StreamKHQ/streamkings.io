@@ -2,6 +2,9 @@
 // This file contains all styles related to the staff component.
 // -----------------------------------------------------------------------------
 .our-staff {
+  .header {
+    font-family: $main-font;
+  }
   .profile-picture {
     img {
       max-height: 50%;
@@ -20,6 +23,6 @@
     font-size: 1em;
   }
   .staff {
-    padding: 25px;
+    padding: 10px;
   }
 }
