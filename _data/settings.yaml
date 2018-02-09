@@ -57,13 +57,13 @@ cta-button:
 # Staff Section
 
 staff:
-  - {name: Antonio, rank: Owner, twitter: https://www.twitter.com/}
-  - {name: Bamba, rank: Manager, twitter: https://www.twitter.com/}
-  - {name: Nathan, rank: Senior Staff, twitter: https://www.twitter.com/}
-  - {name: Brookelyn, rank: Staff, twitter: https://www.twitter.com/}
-  - {name: Dave, rank: Staff, twitter: https://www.twitter.com/}
-  - {name: Jay, rank: Staff, twitter: https://www.twitter.com/}
-  - {name: Toby, rank: Staff, twitter: https://www.twitter.com/}
+  - {name: Antonio, rank: Owner, twitter: 'https://www.twitter.com/'}
+  - {name: Bamba, rank: Manager, twitter: 'https://www.twitter.com/'}
+  - {name: Nathan, rank: Senior Staff, twitter: 'https://www.twitter.com/'}
+  - {name: Brookelyn, rank: Staff, twitter: 'https://www.twitter.com/'}
+  - {name: Dave, rank: Staff, twitter: 'https://www.twitter.com/'}
+  - {name: Jay, rank: Staff, twitter: 'https://www.twitter.com/'}
+  - {name: Toby, rank: Staff, twitter: 'https://www.twitter.com/'}
 staff-header: Our Staff
 
 #-------------------------------
