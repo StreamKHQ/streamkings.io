@@ -85,8 +85,14 @@
       "name": "{{ site.title}}",
       "mainEntityOfPage": "{{ site.data.settings.seo.url }}/",
       "url": "{{ site.data.settings.seo.url }}/",
-      "sameAs": [{% for item in site.data.settings.social %}
-        "{{ item.url }}" {% if forloop.last == false %},{% endif %} {% endfor %}
+      "sameAs": [{ %
+          for item in site.data.settings.social %
+        }
+        "{{ item.url }}" { %
+          if forloop.last == false %
+        }, { % endif %
+        } { % endfor %
+        }
       ],
       "email": "{{ site.email }}",
       "logo": "{{ site.subpath }}/assets/logos/logo.png"
@@ -122,20 +128,21 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">{% for item in site.data.settings.menu %}
         <li>
-          <a href="{{ site.subpath }}{{ item.url }}">{{ item.title }}</a>
-        </li>{% endfor %}
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>{% endfor %} {% for item in site.data.settings.social %}
         <li>
-          <p class="navbar-btn">
-            <a href="{{ site.data.settings.menu-cta.url }}" class="btn btn-cta">{{ site.data.settings.menu-cta.title }}</a>
-          </p>
+          <a href="{{ item.url }}">
+            <i class="fab {{ item.icon }} nav-social-icon {{ item.color }}" aria-hidden="true"></i>
+          </a>
         </li>
+        {% endfor %}
       </ul>
     </div>
   </div>
 </nav>
 
 <body>
-    {{ content }}
+  {{ content }}
 </body>
 <!-- EU Cookie notice -->
 <script>

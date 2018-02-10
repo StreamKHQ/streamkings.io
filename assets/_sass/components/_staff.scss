@@ -5,8 +5,8 @@
     background: $content-background;
 
     .header {
-        font-family: $second-font;
-        color: $brand-color;
+        font-family: $main-font;
+        color: #ffffff;
         font-size: 2.5em;
     }
 
@@ -19,16 +19,16 @@
     }
 
     .name {
-        font-family: $main-font;
-        color: #8EB3FF;
+        font-family: $second-font;
+        color: #ffffff;
         font-weight: 700;
         font-size: 1.5em;
     }
 
     .rank {
-        font-family: $main-font;
+        font-family: $second-font;
         font-size: 1em;
-        color: #ffffff;
+        color: #f2f2f2;
     }
 
     .staff {

@@ -2,8 +2,8 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 // Fonts
-$main-font: "Lato", sans-serif;
-$second-font: "Oswald", sans-serif;
+$main-font: "Monseratte", sans-serif;
+$second-font: "Lato", sans-serif;
 $legal-font: "Times New Roman", sans-serif;
 
 // Social Icons Color
@@ -30,7 +30,7 @@ $brand-color-alt: #0c1e42;
 // Menu Links
 $nav-bgDefault: #ffffff;
 $nav-bgHighlight: #ffffff;
-$nav-colDefault: #080808;
+$nav-colDefault: #FBD511;
 $nav-colHighlight: #2d3b46;
 $nav-dropdown: true;
 $nav-bgScroll: #0c1e42;
@@ -39,10 +39,10 @@ $nav-colScroll: #ffffff;
 $nav-colScroll-Hightlight: rgb(255, 236, 143);
 
 // Buttons
-$button_font: #000000;
+$button_font: #ffffff;
 $button_font_effect: #ffffff;
-$button_background: #ffffff;
-$button_background_effect: #FBD511;
+$button_background: #FBD511;
+$button_background_effect: transparent;
 
 // Spacing
 $spacing-padding: 38px;

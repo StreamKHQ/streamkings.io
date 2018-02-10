@@ -4,8 +4,7 @@
 # Menu Section
 
 menu:
-- {title: Home, url: '/'}
-- {title: About, url: '/#about'}
+# - {title: Home, url: '/'}
 - {title: Store, url: 'https://clashattire.net/collections/StreamKings'}
 - {title: Stickers, url: 'https://northstik.co/shop?olsPage=t%2Fstream-kings'}
 - {title: Join, url: 'https://discord.gg/9Uq4gAc'}
@@ -35,9 +34,9 @@ customBio: 'I am a outgoing, and fun person who enjoys playing league of legends
 sotw-header:  Streamer Of The Week
 
 #-------------------------------
-# About Section
+# How Section
 
-about:
+how:
   header: How will we help you?
   text: 'StreamKings is an organisation that is full of content creators and hard-working staff members, everyone in our community is supportive and will help you grow as much as they can! We have 110% commitment to our members and try our hardest to ensure their success.'
 

@@ -2,7 +2,7 @@
 // This file contains all styles related to the streamer of the week component.
 // -----------------------------------------------------------------------------
 #sotw {
-    padding-top: 70px;
+    padding-top: 80px;
     padding-bottom: 50px;
 }
 
@@ -14,27 +14,28 @@
     }
 
     .header {
-        font-family: $second-font;
-        font-size: 2.5em;
-        color: $brand-color;
+        font-family: $main-font;
+        font-size: 2em;
+        color: $brand-color-alt;
         padding-bottom: 12px;
+        font-weight: 700;
     }
 
     .username {
-        font-family: $main-font;
+        font-family: $second-font;
         font-size: 1.5em;
         display: inline-block;
     }
 
     .currently {
         color: #656565;
-        font-family: $main-font;
+        font-family: $second-font;
         font-size: 1.5em;
         display: inline-block;
     }
 
     .game {
-        font-family: $main-font;
+        font-family: $second-font;
         font-size: 1.5em;
         display: inline-block;
     }
