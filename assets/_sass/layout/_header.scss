@@ -29,7 +29,7 @@
 
 .navbar-default {
   background-color: $nav-bgDefault;
-  border-color: $nav-bgHighlight;
+  // border-color: $nav-bgHighlight;
   box-shadow: 40px -5px 25px 0px rgba(0, 0, 0, 0.41);
   .navbar-brand {
     color: $nav-colDefault;
@@ -149,7 +149,7 @@
 // Scroll
 .navbar-scroll {
   background-color: $nav-bgScroll;
-  border-color: $brand-color;
+  // border-color: $brand-color;
   transition: all 700ms;
   .navbar-brand {
     color: $nav-colScroll;
