@@ -2,41 +2,47 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 // Fonts
-$main-font: 'Lato', sans-serif;
-$second-font:'Oswald', sans-serif;
+$main-font: "Lato", sans-serif;
+$second-font: "Oswald", sans-serif;
+
 // Social Icons Color
 $twitter-color: #1da1f2;
 $twitch-color: #6441a5;
 $youtube-color: #cd201f;
 $github-color: #333;
 $google-plus-color: #dd4b39;
-$facebook-color:#3b5998;
+$facebook-color: #3b5998;
 $spotify-color: #1db954;
 $behance-color: #1769ff;
 $instagram-color: #405de6;
 $social-icon: #ffffff;
+
 // Footer Text
 $footer-color: #ffffff;
 $footer-color_link: #f2f2f2;
 $footer-background: #0c1e42;
+
 // Brand Color
 $brand-color: #FBD511;
 $brand-color-alt: #0c1e42;
+
 // Menu Links
-$nav-bgDefault      : #0c1e42;
-$nav-bgHighlight    : #0c1e42;
-$nav-colDefault     : #FBD511;
-$nav-colHighlight   : rgb(255, 236, 143);
-$nav-dropdown       : true;
+$nav-bgDefault: #0c1e42;
+$nav-bgHighlight: #0c1e42;
+$nav-colDefault: #FBD511;
+$nav-colHighlight: rgb(255, 236, 143);
+$nav-dropdown: true;
 $nav-bgScroll: #ffffff;
 $nav-bgScroll-Hightlight: #ffffff;
 $nav-colScroll: #080808;
 $nav-colScroll-Hightlight: #2d3b46;
+
 // Buttons
 $button_font: #000000;
-$button_font_effect: #000000;
+$button_font_effect: #ffffff;
 $button_background: #ffffff;
 $button_background_effect: #FBD511;
+
 // Spacing
 $spacing-padding: 38px;
 $content-background: #0c1e42;
