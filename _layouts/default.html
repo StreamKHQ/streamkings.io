@@ -129,7 +129,7 @@
       <ul class="nav navbar-nav navbar-right">{% for item in site.data.settings.menu %}
         <li>
           <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>{% endfor %} {% for item in site.data.settings.social %}
+        </li>{% endfor %}{% for item in site.data.settings.social %}
         <li>
           <a href="{{ item.url }}">
             <i class="fab {{ item.icon }} nav-social-icon {{ item.color }}" aria-hidden="true"></i>
