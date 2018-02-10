@@ -85,14 +85,8 @@
       "name": "{{ site.title}}",
       "mainEntityOfPage": "{{ site.data.settings.seo.url }}/",
       "url": "{{ site.data.settings.seo.url }}/",
-      "sameAs": [{ %
-          for item in site.data.settings.social %
-        }
-        "{{ item.url }}" { %
-          if forloop.last == false %
-        }, { % endif %
-        } { % endfor %
-        }
+      "sameAs": [{% for item in site.data.settings.social %}
+        "{{ item.url }}" {% if forloop.last == false %},{% endif %} {% endfor %}
       ],
       "email": "{{ site.email }}",
       "logo": "{{ site.subpath }}/assets/logos/logo.png"
@@ -141,9 +135,7 @@
 </nav>
 
 <body>
-  <div id="wrap">
     {{ content }}
-  </div>
 </body>
 <!-- EU Cookie notice -->
 <script>
@@ -179,7 +171,7 @@
             </script>
             <a href="{{ site.subpath }}/">{{ site.title }}</a>
             <span> - Designed by MrDemonWolf </span>|
-            <a href="{{ site.subpath }}/privacy-statement">Privacy Statement</a>
+            <a href="{{ site.subpath }}/legal/privacy-statement">Privacy Statement</a>
           </div>
         </div>
         <div class="col-md-4 col-sm-12 footer-social">
