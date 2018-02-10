@@ -5,23 +5,21 @@
         {{ site.data.settings.staff-header }}
       </div>
     </div>
-    {% for item in site.data.settings.staff %} {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %} {% if modulo
-    == '1' %}
-    <div class="row">
-      {% endif %}
-      <div class="col-md-4 staff">
-        <div class="profile-picture">
-          <img class="img-responsive img-circle" src="{{ site.subpath}}/assets/images/staff/{{ item.name | downcase }}.png" alt="{{ item.name }} Profile Picture">
-        </div>
-        <div class="name text-center">
-          {{ item.name }}<a href="{{ item.twitter }}" class="social"><i class="fab fa-twitter"></i></a>
-        </div>
-        <div class="rank text-center">
-          {{ item.rank }}
-        </div>
+    {% for item in site.data.settings.staff %}
+    <div class="col-xs-6 col-md-4 staff">
+      <div class="profile-picture">
+        <img class="img-responsive img-circle" src="{{ site.subpath}}/assets/images/staff/{{ item.name | downcase }}.png" alt="{{ item.name }} Profile Picture">
       </div>
-      {% if modulo == '0' or forloop.last %}
+      <div class="name text-center">
+        {{ item.name }}
+        <a href="{{ item.twitter }}" class="social">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <div class="rank text-center">
+        {{ item.rank }}
+      </div>
     </div>
-    {% endif %} {% endfor %}
+    {% endfor %}
   </div>
 </div>
