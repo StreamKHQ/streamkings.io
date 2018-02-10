@@ -6,7 +6,6 @@
 menu:
 - {title: Home, url: '/'}
 - {title: About, url: '/#about'}
-- {title: Ofter, url: '/#ofter'}
 - {title: Store, url: 'https://clashattire.net/collections/StreamKings'}
 - {title: Stickers, url: 'https://northstik.co/shop?olsPage=t%2Fstream-kings'}
 - {title: Join, url: 'https://discord.gg/9Uq4gAc'}
