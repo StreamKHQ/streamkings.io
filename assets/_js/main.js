@@ -26,22 +26,3 @@ $(document).ready(function () {
     $("#cookieConsent").fadeOut(200);
   });
 });
-
-// Navbar Effect
-$(document).ready(function () {
-  var scroll_start = 0;
-  var startchange = $('#scroll_navbar');
-  var offset = startchange.offset();
-  if (startchange.length) {
-    $(document).scroll(function () {
-      scroll_start = $(this).scrollTop();
-      if (scroll_start > offset.top) {
-        $(".navbar-default").addClass('navbar-scroll');
-        $('.navbar-desktop img').attr('src', '../assets/images/logo_text_dark.png');
-      } else {
-        $(".navbar-default").removeClass('navbar-scroll');
-        $('.navbar-desktop img').attr('src', '../assets/images/logo_text_light.png');
-      }
-    });
-  }
-});

@@ -101,7 +101,7 @@
   </script>
 </head>
 <!-- Navbar -->
-<nav class="navbar navbar-default navbar-fixed-top" id="scroll_navbar">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button id="ChangeToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -169,26 +169,16 @@
 <div class="footer" id="footer">
   <footer>
     <div class="copyright">
-      <div class="container fluid">
-        <div class="col-md-8 col-sm-12">
+      <div class="container">
+        <div class="col-md-12">
           <div class="footer-copyright"> Copyright ©
             <script>
               document.write(new Date().getFullYear());
-
             </script>
             <a href="{{ site.subpath }}/">{{ site.title }}</a>
             <span> - Designed by MrDemonWolf </span>|
             <a href="{{ site.subpath }}/legal/privacy-statement">Privacy Statement</a>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-12 footer-social">
-          <ul>{% for item in site.data.settings.social %}
-            <li>
-              <a href="{{ item.url }}">
-                <i class="fab {{ item.icon }} social-icon {{ item.color }}" aria-hidden="true"></i>
-              </a>
-            </li>{% endfor %}
-          </ul>
         </div>
       </div>
     </div>
