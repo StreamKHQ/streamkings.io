@@ -5,9 +5,9 @@
 
 menu:
 # - {title: Home, url: '/'}
-- {title: Store, url: 'https://clashattire.net/collections/StreamKings'}
-- {title: Stickers, url: 'https://northstik.co/shop?olsPage=t%2Fstream-kings'}
-- {title: Join, url: 'https://discord.gg/9Uq4gAc'}
+- {title: Store, url: 'https://clashattire.net/collections/StreamKings', _blank: false}
+- {title: Stickers, url: 'https://northstik.co/shop?olsPage=t%2Fstream-kings',_blank: true}
+- {title: Join, url: 'https://discord.gg/9Uq4gAc', _blank: true}
 # menu-cta:
 #   title: Join
 #   url: 'https://discord.gg/9Uq4gAc'
@@ -56,7 +56,7 @@ cta-button:
 
 staff:
   - {name: Antonio, rank: Owner, twitter: 'https://www.twitter.com/'}
-  - {name: Blaine, Stream manger, twitter: 'https://twitter.com/spartanxtv'}
+  - {name: Blaine, rank: Stream manger, twitter: 'https://twitter.com/spartanxtv'}
   - {name: Bamba, rank: Manager, twitter: 'https://www.twitter.com/'}
   - {name: Nathan, rank: Senior Staff, twitter: 'https://www.twitter.com/mrdemonwolf'}
   - {name: Brookelyn, rank: Staff, twitter: 'https://www.twitter.com/'}
