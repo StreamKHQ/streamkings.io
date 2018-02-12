@@ -5,7 +5,7 @@
 
 menu:
 # - {title: Home, url: '/'}
-- {title: Store, url: 'https://clashattire.net/collections/StreamKings', _blank: false}
+- {title: Store, url: 'https://clashattire.net/collections/StreamKings', _blank: true}
 - {title: Stickers, url: 'https://northstik.co/shop?olsPage=t%2Fstream-kings',_blank: true}
 - {title: Join, url: 'https://discord.gg/9Uq4gAc', _blank: true}
 # menu-cta:
