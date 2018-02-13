@@ -26,7 +26,7 @@ seo:
 # Twitch and SOTW Section
 
 # Twitch API
-twitchKey: o3rt6l6u2pgn1muzpgtuihxwset6y8
+twitchKey: mw96b0edbexr9f6ri4mzoeygb60zx5
 twitchUserID: 45335452
 twitchBio: true
 # Shows if twitchBio is set to false
@@ -54,16 +54,16 @@ cta-button:
 #-------------------------------
 # Staff Section
 
+staff-header: Our Staff
 staff:
   - {name: Antonio, rank: Owner, twitter: 'https://www.twitter.com/'}
-  - {name: Blaine, rank: Stream manger, twitter: 'https://twitter.com/spartanxtv'}
   - {name: Bamba, rank: Manager, twitter: 'https://www.twitter.com/'}
+  - {name: Blaine, rank: Stream Manager, twitter: 'https://twitter.com/spartanxtv'}
   - {name: Nathan, rank: Senior Staff, twitter: 'https://www.twitter.com/mrdemonwolf'}
   - {name: Brookelyn, rank: Staff, twitter: 'https://www.twitter.com/'}
   - {name: Dave, rank: Staff, twitter: 'https://www.twitter.com/'}
   - {name: Jay, rank: Staff, twitter: 'https://www.twitter.com/'}
   - {name: Toby, rank: Staff, twitter: 'https://www.twitter.com/'}
-staff-header: Our Staff
 
 #-------------------------------
 # Ofter Section
@@ -79,9 +79,9 @@ ofter:
 # Social Icons and URls
 
 social:
-- {icon: 'fa-twitter', color: 'twitter-color', url: 'https://www.twitter.com/streamkingshq'}
-- {icon: 'fa-instagram', color: 'instagram-color', url: 'https://www.instagram.com/streamkingshq/'}
-- {icon: 'fa-facebook', color: 'facebook-color', url: 'https://www.facebook.com/StreamKingsUK/'}
+- {icon: 'fa-twitter', color: 'default-social-color', url: 'https://www.twitter.com/streamkingshq'}
+- {icon: 'fa-instagram', color: 'default-social-color', url: 'https://www.instagram.com/streamkingshq/'}
+- {icon: 'fa-facebook', color: 'default-social-color', url: 'https://www.facebook.com/StreamKingsUK/'}
 
 #-------------------------------
 # Modified Date
