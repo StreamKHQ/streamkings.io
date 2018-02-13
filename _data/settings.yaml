@@ -27,10 +27,10 @@ seo:
 
 # Twitch API
 twitchKey: mw96b0edbexr9f6ri4mzoeygb60zx5
-twitchUserID: 45335452
+twitchUserID: 181451817
 twitchBio: true
 # Shows if twitchBio is set to false
-customBio: 'I am a outgoing, and fun person who enjoys playing league of legends on a daily basis. I also like to hula hoop for fun, and I am pretty good at doing so. If you want me to show you, I can hula hoop for you. Just ask! I love giving animals affection. They are sweet, cute, and much nicer than humans. ^-^'
+customBio: ''
 sotw-header:  Streamer Of The Week
 
 #-------------------------------
@@ -56,14 +56,14 @@ cta-button:
 
 staff-header: Our Staff
 staff:
-  - {name: Antonio, rank: Owner, twitter: 'https://www.twitter.com/'}
-  - {name: Bamba, rank: Manager, twitter: 'https://www.twitter.com/'}
-  - {name: Blaine, rank: Stream Manager, twitter: 'https://twitter.com/spartanxtv'}
-  - {name: Nathan, rank: Senior Staff, twitter: 'https://www.twitter.com/mrdemonwolf'}
-  - {name: Brookelyn, rank: Staff, twitter: 'https://www.twitter.com/'}
-  - {name: Dave, rank: Staff, twitter: 'https://www.twitter.com/'}
-  - {name: Jay, rank: Staff, twitter: 'https://www.twitter.com/'}
-  - {name: Toby, rank: Staff, twitter: 'https://www.twitter.com/'}
+  - {name: Antonio, rank: Owner, twitter: 'https://www.twitter.com/toniF_', has_twitter: true}
+  - {name: Bamba, rank: Manager, twitter: 'https://www.twitter.com/caudata_bar', has_twitter: true}
+  - {name: Blaine, rank: Stream Manager, twitter: 'https://twitter.com/spartanxtv', has_twitter: true}
+  - {name: Nathan, rank: Senior Staff, twitter: 'https://www.twitter.com/mrdemonwolf', has_twitter: true}
+  - {name: Brookelyn, rank: Staff, twitter: 'https://www.twitter.com/battleofriven', has_twitter: true}
+  - {name: Dave, rank: Staff, twitter: 'https://www.twitter.com/', has_twitter: false}
+  - {name: Jay, rank: Staff, twitter: 'https://www.twitter.com/jaydegoat', has_twitter: true}
+  - {name: Toby, rank: Staff, twitter: 'https://www.twitter.com/yiovosgg', has_twitter: true}
 
 #-------------------------------
 # Ofter Section

@@ -12,9 +12,11 @@
       </div>
       <div class="name text-center">
         {{ item.name }}
+        {% if item.has_twitter %}
         <a href="{{ item.twitter }}" class="social">
           <i class="fab fa-twitter"></i>
         </a>
+        {% endif %}
       </div>
       <div class="rank text-center">
         {{ item.rank }}
