@@ -4,23 +4,23 @@
 .legal {
     padding-top: 70px;
     padding-bottom: 70px;
-}
 
-.text {
-    font-size: 1.25em;
-    font-family: $legal-font;
+    .text {
+        font-size: 1.25em;
+        font-family: $legal-font;
 
-    a {
-        color: #313131;
+        a {
+            color: #313131;
+        }
+
+        a:hover {
+            color: lighten(#313131, 25);
+            transition: all 500ms;
+        }
     }
 
-    a:hover {
-        color: lighten(#313131, 25);
-        transition: all 500ms;
+    .last-modified {
+        font-size: 1em;
+        font-family: $legal-font;
     }
-}
-
-.last-modified {
-    font-size: 1em;
-    font-family: $legal-font;
 }
