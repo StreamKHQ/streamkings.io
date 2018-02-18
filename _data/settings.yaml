@@ -83,6 +83,7 @@ ofter:
 
 #-------------------------------
 # Social Icons and URls
+# # Icons supported are Twitter, Twitch, Spotify, Github, YouTube, Linkin, and Google Plus
 
 social:
 - {icon: 'fa-twitter', color: 'default-social-color', url: 'https://www.twitter.com/streamkingshq'}

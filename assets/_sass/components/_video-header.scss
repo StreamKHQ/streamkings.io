@@ -5,13 +5,20 @@
     text-align: center;
     color: white;
     background: $brand-color-alt;
-
-    // background: url(../images/vidoe-header_bg.png) no-repeat bottom center;
-    background-size: cover;
     height: 100%;
     padding-top: 27px;
     padding-bottom: 27px;
     margin: 0;
+    overflow: hidden;
+    position: relative;
+
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
 
     .text {
         display: inline-block;
@@ -25,11 +32,13 @@
         .header {
             font-family: $main-font;
             color: $brand-color;
+            font-weight: 700;
             font-size: 2.5em;
         }
 
         .sub-header {
             font-family: $second-font;
+            color: #000000;
             font-size: 1.25em;
         }
     }
