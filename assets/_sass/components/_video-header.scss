@@ -1,0 +1,67 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the video header component.
+// -----------------------------------------------------------------------------
+.video-header {
+    text-align: center;
+    color: white;
+    background: $brand-color-alt-2;
+
+    background: url(../images/discord_bg.png) no-repeat bottom center;
+    background-size: cover;
+    height: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: 0;
+
+    .body {
+        display: table-cell;
+    }
+    .text {
+        color: #000000;
+        font-family: $main-font;
+        display: inline-block;
+    }
+
+    .inner {
+        background-color: transparent !important;
+        padding-top: 20px;
+        padding-bottom: 0px;
+
+        .header {
+            font-family: $main-font;
+            font-size: 2.5em;
+            color: $brand-color;
+        }
+
+        .sub-header {
+            font-size: 1.25em;
+        }
+    }
+
+    .btn {
+        border-radius: 5px;
+        margin: 0 0 0 0;
+        font-weight: 700;
+        padding-bottom: 15px;
+
+        &.btn-discord {
+            color: $button_background_effect_font;
+            background-color: $button_background_effect;
+
+            &.btn-discord.active.focus, .btn-discord.active:focus, .btn-discord.active:hover, .btn-discord:active.focus, .btn-discord:active:focus, .btn-discord:active:hover, .btn-discord:hover {
+                background: darken($button_background_effect, 15%);
+                color: button_background_effect_font;
+                transition: all 500ms;
+            }
+        }
+    }
+}
+
+#video-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .jumbotron {
+        background-color: transparent;
+    }
+}
