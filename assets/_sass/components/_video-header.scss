@@ -2,15 +2,12 @@
 // This file contains all styles related to the video header component.
 // -----------------------------------------------------------------------------
 .video-header {
-    text-align: center;
-    color: white;
     background: $brand-color-alt;
     height: 100%;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    margin: 0;
     overflow: hidden;
     position: relative;
+    padding-top: 150px;
+    padding-bottom: 150px;
 
     video {
         position: absolute;
@@ -18,37 +15,49 @@
         left: 0;
         width: 100%;
         height: auto;
+        z-index: 1;
     }
 
-    .text {
-        display: inline-block;
+    .overlay {
+        z-index: 100;
+        background: rgba(#000000 , 0.75);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     .inner {
         background-color: transparent !important;
-        padding-top: 20px;
-        padding-bottom: 0px;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        display: inline-block;
 
         .header {
             font-family: $main-font;
-            color: $brand-color;
+            color: #ffffff;
             font-weight: 700;
             font-size: 2.5em;
         }
 
         .sub-header {
             font-family: $second-font;
-            color: #000000;
+            color: #ffffff;
             font-size: 1.25em;
         }
     }
 }
 
 #video-header {
-    padding-top: 80px;
-    padding-bottom: 50px;
-
     .jumbotron {
         background-color: transparent;
     }
 }
+
+// @media (max-width: 766px) {
+//     .video-header {
+//         padding-top: 50px;
+//         padding-bottom: 50px;
+//     }
+// }

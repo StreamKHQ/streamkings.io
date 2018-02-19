@@ -2,13 +2,12 @@
 <div id="video-header">
   <div class="jumbotron video-header">
     <div class="container">
-      <video class="video" preload="" muted="" autoplay="" loop="">
-        <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-        <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+      <video autoplay loop poster="{{ site.subpath }}/assets/videos/poster.png">
+        <source src="{{ site.subpath }}/assets/videos/landing_video.webm" type='video/webm;codecs="vp8, vorbis"'> Your browser does not support the video tag.
       </video>
-      <div class="col-lg-12 text-center">
-        <div class="inner">
-          <div class="text">
+      <div class="overlay">
+        <div class="text-center">
+          <div class="inner">
             <h1 class="header">{{ site.data.settings.video-header.header }}</h1>
             <h2 class="sub-header">{{ site.data.settings.video-header.sub-header }}</h2>
           </div>
