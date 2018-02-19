@@ -2,15 +2,13 @@
 <div id="video-header">
   <div class="jumbotron video-header">
     <div class="container">
-      <video autoplay loop poster="{{ site.subpath }}/assets/videos/poster.png">
+      <video autoplay loop poster="{{ site.subpath }}/assets/videos/landing_video_thumbnail.png">
         <source src="{{ site.subpath }}/assets/videos/landing_video.webm" type='video/webm;codecs="vp8, vorbis"'> Your browser does not support the video tag.
       </video>
       <div class="overlay">
-        <div class="text-center">
-          <div class="inner">
-            <h1 class="header">{{ site.data.settings.video-header.header }}</h1>
-            <h2 class="sub-header">{{ site.data.settings.video-header.sub-header }}</h2>
-          </div>
+        <div class="inner text-center">
+          <h1 class="header">{{ site.data.settings.video-header.header }}</h1>
+          <h2 class="sub-header">{{ site.data.settings.video-header.sub-header }}</h2>
         </div>
       </div>
     </div>
