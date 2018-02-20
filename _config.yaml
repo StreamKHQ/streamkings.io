@@ -17,7 +17,7 @@ title: "Stream Kings"
 email: webmaster@streamkingshq.ltd
 description: We are revolutionizing the way streamers connect to their audience and network, Stream Kings is a social platform for streamers of any kind. We look to enhance peoples networking abilities, through connection online, influential articles and inspirational stories.
 keywords: stream,twitch,kings
-subpath: "/streamkings" # the subpath of your site, e.g. /blog
+subpath: "" # the subpath of your site, e.g. /blog
 github_username: mrdemonwolf
 encoding: UTF-8
 brand-color: '#00328d'
