@@ -4,9 +4,10 @@
 # Menu Section
 
 menu:
-# - {title: Home, url: '/'}
+- {title: Home, url: '/'}
 - {title: Store, url: 'https://clashattire.net/collections/StreamKings', _blank: true}
-- {title: Join, url: 'https://discord.gg/9Uq4gAc', _blank: true}
+- {title: Community, url: 'http://community.streamkings.ltd/', _blank: true}
+
 # menu-cta:
 #   title: Join
 #   url: 'https://discord.gg/9Uq4gAc'
@@ -16,7 +17,7 @@ menu:
 
 seo:
   twitter-creator: '@mrdemonwolf'
-  twitter-site: '@streamkingshq'
+  twitter-site: '@streamkhq'
   type: 'website'
   google-analytics: UA-xxxx-1
   url:
@@ -48,7 +49,7 @@ cta:
 
 cta-button:
   title: JOIN NOW
-  url: https://discord.gg/ykMfJBW
+  url: http://community.streamkings.ltd/
 
 #-------------------------------
 # Staff Section
@@ -89,6 +90,7 @@ social:
 - {icon: 'fa-twitter', color: 'default-social-color', url: 'https://www.twitter.com/streamkingshq'}
 - {icon: 'fa-instagram', color: 'default-social-color', url: 'https://www.instagram.com/streamkingshq/'}
 - {icon: 'fa-facebook', color: 'default-social-color', url: 'https://www.facebook.com/StreamKingsUK/'}
+- {icon: 'fa-discord', color: 'default-social-color', url: 'https://discord.gg/ykMfJBW'}
 
 #-------------------------------
 # Modified Date
