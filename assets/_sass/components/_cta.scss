@@ -4,7 +4,7 @@
 .cta {
     text-align: center;
     color: white;
-    background: $brand-color-alt;
+    background-color: $brand-color-alt;
     background: url(../images/cta_bg.png) no-repeat bottom center;
     background-size: cover;
     height: 100%;
@@ -29,6 +29,7 @@
 
         .header {
             font-family: $main-font;
+            font-weight: 700;
             font-size: 2.5em;
             color: $brand-color;
         }
@@ -45,7 +46,7 @@
             color: $button_font;
             background-color: $button_background;
             border: 2px solid #ffffff;
-            border-radius: 8px;
+            border-radius: 18px;
             margin: 0 0 0 0;
             font-weight: 700;
         }
