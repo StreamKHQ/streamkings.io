@@ -2,29 +2,31 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 .footer-copyright {
-  font-size: 1.15em;
-  color: $footer-color;
-  padding: 10px 0;
-  margin-bottom: 0;
-  text-align: center;
-  a {
-    color: $footer-color_link;
-    text-decoration: none;
-  }
-  a:hover {
-    color: lighten($footer-color_link, 15%);
-    text-decoration: none;
-  }
+    font-size: 0.75em;
+    color: $footer-color;
+    padding: 10px 0;
+    margin-bottom: 0;
+    text-align: center;
+
+    a {
+        color: $footer-color_link;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: lighten($footer-color_link, 15%);
+        text-decoration: none;
+    }
 }
 
 .copyright {
-  background-color: $footer-background;
-  padding-top: 8px;
-  padding-bottom: 8px;
+    background-color: $footer-background;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 @media (max-width: 768px) {
-  .footer-copyright span {
-    display: none;
-  }
+    .footer-copyright span {
+        display: none;
+    }
 }
