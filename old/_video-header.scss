@@ -7,8 +7,7 @@
   overflow: hidden;
   position: relative;
   padding-top: 150px;
-  padding-bottom: 300px;
-
+  padding-bottom: 500px;
   video {
     position: absolute;
     top: 0;
@@ -28,7 +27,8 @@
   }
   .inner {
     background-color: transparent !important;
-    padding-top: 250px;
+    padding-top: 300px;
+
     .header {
       font-family: $main-font;
       color: #ffffff;
@@ -49,28 +49,45 @@
   }
 }
 
-@media (max-width: 619px) {
+@media (max-width: 1154px) {
   .video-header {
     video {
-      height: 500px;
-    }
-  }
-}
-@media (max-width: 450px) {
-   .video-header {
-     video {
-       width: 500px;
-     }
-   }
-}
-@media (max-width: 320px) {
-  .video-header {
-    video {
-      height: 382px;
-      width: 640px;
+      padding-top: 0px;
     }
     .inner {
-      padding-top: 75px;
+      padding-top: 250px;
     }
   }
-}
+  @media (max-width: 977px) {
+    .video-header {
+      video {
+        height: 600px;
+        width: 1000px;
+
+      }
+    }
+  } // @media (max-width: 619px) {
+  //   .video-header {
+  //     video {
+  //       height: 500px;
+  //     }
+  //   }
+  // }
+  // @media (max-width: 450px) {
+  //    .video-header {
+  //      video {
+  //        width: 500px;
+  //      }
+  //    }
+  // }
+  // @media (max-width: 320px) {
+  //   .video-header {
+  //     video {
+  //       height: 382px;
+  //       width: 640px;
+  //     }
+  //     .inner {
+  //       padding-top: 75px;
+  //     }
+  //   }
+  // }

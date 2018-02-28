@@ -6,7 +6,7 @@
 menu:
 - {title: Home, url: '/'}
 - {title: Store, url: 'https://clashattire.net/collections/StreamKings', _blank: true}
-- {title: Community, url: 'http://community.streamkings.ltd/', _blank: true}
+- {title: Community, url: 'https://discord.gg/9Uq4gAc', _blank: true}
 
 # menu-cta:
 #   title: Join
@@ -36,6 +36,13 @@ sotw-header:  Streamer Of The Week
 #-------------------------------
 # How Section
 
+hero:
+  header:  Are you a content creator?
+  sub-header: StreamKings is here to help, you are one click away from growing your channel
+
+#-------------------------------
+# How Section
+
 how:
   header: How will we help you?
   text: 'StreamKings is an organisation that is full of content creators and hard-working staff members, everyone in our community is supportive and will help you grow as much as they can! We have 110% commitment to our members and try our hardest to ensure their success.'
@@ -49,7 +56,7 @@ cta:
 
 cta-button:
   title: JOIN NOW
-  url: http://community.streamkings.ltd/
+  url: https://discord.gg/9Uq4gAc
 
 #-------------------------------
 # Staff Section
@@ -64,13 +71,6 @@ staff:
   - {name: Dave, rank: Staff, twitter: 'https://www.twitter.com/', has_twitter: false}
   - {name: Jay, rank: Staff, twitter: 'https://www.twitter.com/jaydegoat', has_twitter: true}
   - {name: Toby, rank: Staff, twitter: 'https://www.twitter.com/yiovosgg', has_twitter: true}
-
-  #-------------------------------
-# Video Header Section
-
-video-header:
-  header: Are you a content creator?
-  sub-header: StreamKings is here to help, you are one click away from growing your channel
 
 #-------------------------------
 # How Section
