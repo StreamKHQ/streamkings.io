@@ -33,13 +33,13 @@ twitchUserID: 181451817
 #-------------------------------
 # SOTW Section
 
-sotw-text-1:
-  header:  Streamer Of The Week
+sotw-1:
+  header: Streamer Of The Week
   text:
     - 'Becoming streamer of the week is very simple! Stream! We look for the most active, engaging and passionate streamer. Originality is a key part and something we belive that can be developed, So don’t worry, if we think you have the potential then there is always a chance!'
 
-sotw-text-2:
-  header:  Streamer Of The Week
+sotw-2:
+  header: How to be streamer of the week
   text:
     - 'Every week we as a community choose a streamer of the week! Someone that deserves special recognition for their amazing content. Receiving this reward is classed as a big honour amongst the community.'
     - 'We love to help the small streamers! So if you are new and starting out still try and get our recognition, you never know...'

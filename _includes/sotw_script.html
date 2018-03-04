@@ -13,7 +13,7 @@
   });
   $.getJSON(twitchKraken + '/channels/' + twitchUserID, function (json) {
     var twitchUserName = json.name
-    $('#usernameLink').attr('href', twitchURL + '/' + twitchUserName)
+    $('.twitch_stream iframe').attr('src', "https://player.twitch.tv/?channel=" + twitchUserName + "&muted=true");
   });
 
 </script>

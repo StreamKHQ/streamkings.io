@@ -9,21 +9,23 @@
     </div>
     <div class="col-md-4">
       <div class="header">
-        {{ site.data.settings.sotw-header-1 }}
+        {{ site.data.settings.sotw-1.header }}
       </div>
       <div class="text">
-        {% for section in site.data.sotw-text-1 %}}
+        {% for section in site.data.settings.sotw-1.text %}
         <p>
-          (( section | textilize }}
+          {{ section | textilize }}
         </p>{% endfor %}
       </div>
       <div class="header">
-        {{ site.data.settings.sotw-header-2 }}
+        {{ site.data.settings.sotw-2.header }}
       </div>
-      {% for section in site.data.sotw-text-2 %}}
-      <p>
-        (( section | textilize }}
-      </p>{% endfor %}
+      <div class="text">
+        {% for section in site.data.settings.sotw-2.text %}
+        <p>
+          {{ section | textilize }}
+        </p>{% endfor %}
+      </div>
     </div>
   </div>
 </div>
