@@ -1,5 +1,5 @@
 <div id="sotw" class="sotw">
-  <div class="container">
+  <div class="container-fluid">
     <div class="col-md-8">
       <div class="embed-responsive embed-responsive-16by9">
         <div class="twitch_stream">
@@ -9,29 +9,23 @@
     </div>
     <div class="col-md-4">
       <div class="header">
-        {{ site.data.settings.sotw-header }}
+        {{ site.data.settings.sotw-1.header }}
       </div>
-      <div class="twitch_info">
-        <a id="usernameLink" href="">
-          <div class="username" id="username">
-          </div>
-        </a>
-        <div class="currently">
-          Currently streaming
-        </div>
-        <a id="gameLink" href="">
-          <div class="game" id="game">
-          </div>
-        </a>
+      <div class="text">
+        {% for section in site.data.settings.sotw-1.text %}
+        <p>
+          {{ section | textilize }}
+        </p>{% endfor %}
       </div>
-      {% if site.data.settings.twitchBio == true %}
-      <div class="bio" id="bio">
+      <div class="header">
+        {{ site.data.settings.sotw-2.header }}
       </div>
-      {% else %}
-      <div class="bio">
-        {{ site.data.settings.customBio }}
+      <div class="text">
+        {% for section in site.data.settings.sotw-2.text %}
+        <p>
+          {{ section | textilize }}
+        </p>{% endfor %}
       </div>
-      {% endif %}
     </div>
   </div>
 </div>

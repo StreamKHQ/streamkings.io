@@ -1,35 +1,28 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to the cta component.
+// This file contains all styles related to the hero component.
 // -----------------------------------------------------------------------------
-.cta {
-    background-color: $brand-color-alt;
-    color: #ffffff;
+.hero {
     background: url(../images/hero_bg.png) no-repeat bottom center;
     background-size: cover;
     height: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 0;
+    padding-top: 75px;
+    padding-bottom: 75px;
 
     .inner {
         background-color: transparent !important;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 75px;
 
         .header {
             font-family: $main-font;
+            color: #ffffff;
             font-weight: 700;
             font-size: 2.5em;
         }
 
         .sub-header {
+            font-family: $second-font;
+            color: #ffffff;
             font-size: 1.25em;
         }
-    }
-}
-
-#cta {
-    .jumbotron {
-        background-color: transparent;
     }
 }

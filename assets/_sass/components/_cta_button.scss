@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the hero component.
+// -----------------------------------------------------------------------------
+.cta-button {
+    padding-top: 15px;
+
+    .btn-cta {
+        color: $cta-button_font;
+        background-color: $cta-button_background;
+        border: 2px solid $cta-button_border;
+        border-radius: 18px;
+        margin: 0 0 0 0;
+        font-weight: 700;
+        padding: 12px 16px;
+    }
+
+    .btn-cta.active.focus, .btn-cta.active:focus, .btn-cta.active:hover, .btn-cta:active.focus, .btn-cta:active:focus, .btn-cta:active:hover, .btn-cta:hover {
+        background: $cta-button_background_effect;
+        color: $cta-button_font_effect;
+        border: 2px solid $cta-button_border_effect;
+        transition: all 500ms;
+    }
+}

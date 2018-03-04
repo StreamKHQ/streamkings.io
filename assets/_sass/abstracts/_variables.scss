@@ -19,9 +19,9 @@ $instagram-color: #405de6;
 $social-icon: #ffffff;
 
 // Footer Text
-$footer-color: #ffffff;
-$footer-color_link: #f2f2f2;
-$footer-background: #0c1e42;
+$footer-color: #0c1e42;
+$footer-color_link: #2d3b46;
+$footer-background: #ffffff;
 
 // Brand Color
 $brand-color: #FBD511;
@@ -35,10 +35,12 @@ $nav-colHighlight: #2d3b46;
 $nav-dropdown: true;
 
 // Buttons
-$button_font: #ffffff;
-$button_font_effect: #ffffff;
-$button_background: #FBD511;
-$button_background_effect: transparent;
+$cta-button_font: #ffffff;
+$cta-button_font_effect: #ffffff;
+$cta-button_background: transparent;
+$cta-button_background_effect: #ffe144;
+$cta-button_border: #ffe144;
+$cta-button_border_effect: #000000;
 
 // Spacing
 $spacing-padding: 38px;
