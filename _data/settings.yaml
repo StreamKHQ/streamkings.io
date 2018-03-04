@@ -6,7 +6,8 @@
 menu:
 - {title: Home, url: '/'}
 - {title: Store, url: 'https://clashattire.net/collections/StreamKings', _blank: true}
-- {title: Community, url: 'https://discord.gg/9Uq4gAc', _blank: true}
+- {title: Forums, url: 'http://community.streamkings.ltd', _blank: true}
+- {title: Discord, url: 'https://discord.gg/BMrV3KY', _blank: true}
 
 # menu-cta:
 #   title: Join
@@ -23,18 +24,28 @@ seo:
   url:
 
 #-------------------------------
-# Twitch and SOTW Section
+# Twitch Section
 
 # Twitch API
 twitchKey: mw96b0edbexr9f6ri4mzoeygb60zx5
 twitchUserID: 181451817
-twitchBio: true
-# Shows if twitchBio is set to false
-customBio: ''
-sotw-header:  Streamer Of The Week
 
 #-------------------------------
-# How Section
+# SOTW Section
+
+sotw-text-1:
+  header:  Streamer Of The Week
+  text:
+    - 'Becoming streamer of the week is very simple! Stream! We look for the most active, engaging and passionate streamer. Originality is a key part and something we belive that can be developed, So don’t worry, if we think you have the potential then there is always a chance!'
+
+sotw-text-2:
+  header:  Streamer Of The Week
+  text:
+    - 'Every week we as a community choose a streamer of the week! Someone that deserves special recognition for their amazing content. Receiving this reward is classed as a big honour amongst the community.'
+    - 'We love to help the small streamers! So if you are new and starting out still try and get our recognition, you never know...'
+
+#-------------------------------
+# Hero Section
 
 hero:
   header:  Are you a content creator?
@@ -59,18 +70,11 @@ cta-button:
   url: https://discord.gg/9Uq4gAc
 
 #-------------------------------
-# Staff Section
+# # Staff Section
 
-staff-header: Our Staff
-staff:
-  - {name: Antonio, rank: Owner, twitter: 'https://www.twitter.com/toniF_', has_twitter: true}
-  - {name: Bamba, rank: Manager, twitter: 'https://www.twitter.com/caudata_bar', has_twitter: true}
-  - {name: Blaine, rank: Stream Manager, twitter: 'https://twitter.com/spartanxtv', has_twitter: true}
-  - {name: Nathan, rank: Senior Staff, twitter: 'https://www.twitter.com/mrdemonwolf', has_twitter: true}
-  - {name: Brookelyn, rank: Staff, twitter: 'https://www.twitter.com/battleofriven', has_twitter: true}
-  - {name: Dave, rank: Staff, twitter: 'https://www.twitter.com/', has_twitter: false}
-  - {name: Jay, rank: Staff, twitter: 'https://www.twitter.com/jaydegoat', has_twitter: true}
-  - {name: Toby, rank: Staff, twitter: 'https://www.twitter.com/yiovosgg', has_twitter: true}
+# staff-header: Our Staff
+# staff:
+#   - {name: Antonio, rank: Owner, twitter: 'https://www.twitter.com/toniF_', has_twitter: true}
 
 #-------------------------------
 # How Section
